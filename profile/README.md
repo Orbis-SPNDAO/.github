@@ -58,9 +58,10 @@ Whenever a decryption is initiated, a payment will be triggered to send rewards 
 ##  Future Road Maps
 
 - Integration of Plaid API to source data directly from DAO members. It serves the purpose of KYC as well. 
-- We are currently building on-chain voting and decentralized discussion forums that DAO members could access directly from the end user dashboard. 
+- We are currently implementing on-chain voting and decentralized discussion forums that DAO members could access directly from the end user dashboard. 
 - Make the metadata of the SBT upgradeable. 
 - Time-based NFT passes as subscription, as a revenue stream from third-party clients. 
+- We are going to explore options to securely store the crowdsourced data and solutions for confidential computing. 
 
 
 ## Team
