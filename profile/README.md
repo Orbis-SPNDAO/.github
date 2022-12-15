@@ -1,6 +1,6 @@
 
 
-# Welcome to Pattern DAO
+# Welcome to SPN DAO
 
 
 ## Problem Statement
