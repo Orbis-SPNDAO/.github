@@ -68,7 +68,6 @@ Whenever a decryption is initiated, a payment will be triggered to send rewards 
 
 * Brian Grosso: Developer
 * Jonathan Conn: Developer
-* Ram Vittal Kumar: Developer
 * Tobias Leinss: Developer
 * Karen Sheng: Product Lead
 * Yifeng Wang: UX & UI Designer
