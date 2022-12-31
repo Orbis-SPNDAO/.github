@@ -97,6 +97,7 @@ For the core development, we used:
 
 ## Demo URL
 
+* https://spn-dao.vercel.app/
 
 ## Team
 
