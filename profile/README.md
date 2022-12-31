@@ -41,7 +41,7 @@ We have built a decentralization application (dApp) that facilitates the creatio
 
 - In the “Data Management” dashboard, the admin is able to view all the wallet addresses that own the DAO membership SBT and initiate decryption of the data tied to one or multiple SBTs.
 
-- Whenever a decryption is completed, payment will be sent over to the holder of a given SBT as a reward. The payment transactions can be easily verified on PolygonScan.
+- Whenever a decryption is completed, payment will be sent over to the holder of a given SBT as a reward. The payment transactions can be easily verified on PolygonScan. For example [here](https://mumbai.polygonscan.com/address/0xb66763558e38b596c151954e9b070c46e115c56e#internaltx "here").
 
 - In the “Proposal Management” dashboard, the admin is able to create proposals and set up elections for the proposal. 
 
