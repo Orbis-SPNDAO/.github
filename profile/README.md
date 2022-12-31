@@ -19,7 +19,7 @@ However, consumers have little control over how and when our personal data, incl
 
 ## Our Solution
 
-This is why we are inspired to create SPN DAO. We built our POC on the Wallaby testnet of Filecoin’s EVM (FEVM) chain over two days at Hack FEVM in mid-November. Encryption/access control mechanism such as Lit protocols is not supported on FEVM. Therefore, we used Pinata Submarine as a workaround to implement access control for the previous hackathon. The Web3 Social Hackathon gave us an opportunity to rebuild the dApp and build core features from the ground up.
+This is why we are inspired to create SPN DAO. We built our POC on the Wallaby testnet of Filecoin’s EVM (FEVM) chain over two days at Hack FEVM in mid-November. Encryption/access control mechanism such as Lit protocols is not supported on FEVM. Therefore, we used Pinata Submarine as a workaround to implement access control for the previous hackathon. The Web3 Social Hackathon gave us an opportunity to rebuild the dApp on Mumbai testnet of Polygon and build core features from the ground up.
 
 We have built a decentralization application (dApp) that facilitates the creation and operation of a data DAO. The dApp consists of portals for three types of users:
 
