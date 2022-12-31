@@ -53,6 +53,22 @@ We have built a decentralization application (dApp) that facilitates the creatio
 
 - The subscriber could be an institutional fund, an e-commerce site, an investment club, or even a DAO member who wishes to leverage the data and insights that the community-owned data economy has created.
 
+
+## Challenges & Future Iterations:
+
+- In general, as we tried to build use cases for multiple bounties, we experienced some difficulties working with tools still in development without a lot of documentation and informal documentation of StackOverflow threads and the like.
+
+- One of the biggest challenges is the reliability of data encryption. We had to deal with the conundrum of the transparency of blockchain and being an open-source project. We realized that there were risks in embedding the decryption key in the membership SBT smart contract. The solution we came up with was to map the key in the admin NFT smart contract.
+
+- Future iterations to enhance the solution include storing the decryption key (“admin NFT”) in a Gnosis multi-sig and enforcing collecting a certain number of approval signatures for decryption; exploring and incorporating a privacy layer such as Aztec.
+
+- Another challenge is to maintain secure storage and retrieval of data while also storing the data in a trustless decentralized manner. For the MVP, the CSV file that a DAO member contributes is automatically downloaded to the admin’s local machine once a member’s SBT is decrypted. This is clearly not appropriate for real-world practice. Future iterations include routing the individual datasets to secure cloud storage; setting up infrastructure for confidential computing; exploring possibilities for compute-over-data.
+
+- Manual data uploads vs. integration of Plaid API in the future. For the MVP, the onboarding process of any prospective DAO members starts with uploading a csv file to IPFS. The data from each user is stored temporarily in a cloud server. After the data is uploaded and encrypted, the data stored on the cloud server is deleted. This manual process requires the end user to remove sensitive PII (personal identifiable information) manually and we have to assume that the data from each user has a standardized schema. The next step post-hackathon is to explore and implement integration with Plaid API. This serves two purposes:
+	- Standardizing and automating the funnel of data. 
+	- Zero-knowledge KYC and mitigation of Sybil attacks. 
+
+
 ## How It's Made
 
 The tech stack that we’ve used for building the dApp consists of
@@ -80,21 +96,6 @@ For the core development, we used:
 * Smart Contracts - https://github.com/SPNDAO/core
 
 ## Demo URL
-
-
-## Challenges & Future Iterations:
-
-- In general, as we tried to build use cases for multiple bounties, we experienced some difficulties working with tools still in development without a lot of documentation and informal documentation of StackOverflow threads and the like.
-
-- One of the biggest challenges is the reliability of data encryption. We had to deal with the conundrum of the transparency of blockchain and being an open-source project. We realized that there were risks in embedding the decryption key in the membership SBT smart contract. The solution we came up with was to map the key in the admin NFT smart contract.
-
-- Future iterations to enhance the solution include storing the decryption key (“admin NFT”) in a Gnosis multi-sig and enforcing collecting a certain number of approval signatures for decryption; exploring and incorporating a privacy layer such as Aztec.
-
-- Another challenge is to maintain secure storage and retrieval of data while also storing the data in a trustless decentralized manner. For the MVP, the CSV file that a DAO member contributes is automatically downloaded to the admin’s local machine once a member’s SBT is decrypted. This is clearly not appropriate for real-world practice. Future iterations include routing the individual datasets to secure cloud storage; setting up infrastructure for confidential computing; exploring possibilities for compute-over-data.
-
-- Manual data uploads vs. integration of Plaid API in the future. For the MVP, the onboarding process of any prospective DAO members starts with uploading a csv file to IPFS. The data from each user is stored temporarily in a cloud server. After the data is uploaded and encrypted, the data stored on the cloud server is deleted. This manual process requires the end user to remove sensitive PII (personal identifiable information) manually and we have to assume that the data from each user has a standardized schema. The next step post-hackathon is to explore and implement integration with Plaid API. This serves two purposes:
-	- Standardizing and automating the funnel of data. 
-	- Zero-knowledge KYC and mitigation of Sybil attacks. 
 
 
 ## Team
