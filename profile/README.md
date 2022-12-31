@@ -5,18 +5,33 @@
 
 ## Problem Statement
 
-Our credit card transaction data reveal a lot about our behaviors. Aggregated together, they tell even more powerful stories about the economy. Is there a spike in Netflix subscriptions? Is there a dip in spending at hardware stores? Credit card transaction data is the highest-grossing data source in the “alternative data” market. The global alternative data market is anticipated to reach 143.31 billion USD by 2030 and is expected to grow at a 54.4% CAGR. North America alone accounted for a revenue share of more than 67.0% in 2021. 
+Web 3.0 technologies have enabled a paradigm shift in how we perceive and enforce data privacy and ownership. Data privacy is not equivalent to having everyone’s personal data kept within walled gardens. Instead, consumers should have governance rights and direct control over the use and monetization of their data. 
 
-There are more than 400 alternative data providers. Among them are credit card issuers like MasterCard and Visa, institutions like Bloomberg and Goldman Sachs, and numerous analytics firms. These businesses have been monetizing from selling purportedly anonymized and aggregated credit card transaction data and analytics services. The emergence of machine learning and AI have accelerated the growth of these services.
+After lots of debates and iterations, our team decided to build a data DAO that incentivizes members to contribute their credit card transaction data and govern how their data is used.
 
-Despite mixed outcomes, hedge funds have spent billions of dollars acquiring such data with the hope to forecast stock performance more accurately. Google spent millions of dollars purchasing data from MasterCard, trying to link online ads to store purchases. 
+Why credit card transaction data? Platforms such as Instagram heavily influence the formation of consumers’ tastes, preferences, and what we purchase. In return, our credit card transactions reveal a lot about our behaviors. Aggregated together, the data tell even more insightful stories about the economy. For instance, is there a spike in Netflix subscriptions? Or is there a dip in spending at hardware stores? 
 
-However, consumers have little control over how and when their personal data, including credit card transaction data, is used. Consumers’ personal data fuels a multi-billion dollar industry while we receive almost no financial rewards. In practice, data from a single person is of little value. And there is no platform where consumers could coordinate and pool their data together. 
+Credit card transaction data is the highest-grossing data source in the “alternative data” market. The global alternative data market is anticipated to reach 143.31 billion USD by 2030 and is expected to grow at a 54.4% CAGR. North America alone accounted for a revenue share of more than 67.0% in 2021.
+
+There are more than 400 alternative data providers. These businesses have been monetizing from selling purportedly anonymized and aggregated credit card transaction data and analytics services. The emergence of machine learning and AI has accelerated the growth of these services.
+
+Despite mixed outcomes, hedge funds have spent billions of dollars acquiring such data with the hope to forecast stock performance more accurately. Google spent millions of dollars purchasing data from MasterCard, trying to link online ads to store purchases.
+
+However, consumers have little control over how and when our personal data, including credit card transaction data, is used. Consumers’ personal data fuels a multi-billion dollar industry while we receive almost no financial rewards. In practice, data from a single person is of little value. And there is no platform where consumers could coordinate and pool their data together.
+
+
 
 
 ## Our Solution
 
-This is exactly why we have created SPN DAO! Our first product release is a dApp that facilitates the creation and operation of a data DAO.
+This is what inspired us to create SPN DAO. We built our POC on the Wallaby testnet of Filecoin’s EVM (FEVM) chain over two days at Hack FEVM in mid-November. Encryption/access control mechanism such as Lit protocols is not supported on FEVM. Therefore, we used Pinata Submarine as a workaround to implement access control for the previous hackathon. The Web3 Social Hackathon gave us an opportunity to rebuild the dApp and build core features from the ground up. 
+
+We have built a decentralization application (dApp) that facilitates the creation and operation of a data DAO. The dApp consists of portals for three types of users: 
+
+End users (prospective and existing DAO members)
+Admin of the DAO 
+Subscribers (third-party clients who pay for monthly subscriptions to access aggregated data or analytics reports that the DAO creates) 
+
 
 ### For consumers/end-users: 
 
