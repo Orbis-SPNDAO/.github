@@ -28,11 +28,6 @@ This is what inspired us to create SPN DAO. We built our POC on the Wallaby test
 
 We have built a decentralization application (dApp) that facilitates the creation and operation of a data DAO. The dApp consists of portals for three types of users: 
 
-End users (prospective and existing DAO members)
-Admin of the DAO 
-Subscribers (third-party clients who pay for monthly subscriptions to access aggregated data or analytics reports that the DAO creates) 
-
-
 ### For consumers/end-users: 
 
 If someone opts in to become a DAO member and to contribute to the data economy, they will be able to upload anonymized credit card transaction data as a .csv file, have it encrypted immediately and store the encrypted data on decentralized storage provided by IPFS.
