@@ -37,7 +37,7 @@ We have built a decentralization application (dApp) that facilitates the creatio
 
 - The admin could be a core contributor or a delegate that has been approved by community members of the DAO.
 
-- The admin wallet stores the “admin NFT”, which is authorized to unlock the token-gated admin portal.
+- The admin wallet stores the “admin NFT”, which is authorized to unlock the token-gated admin portal and decrypt data. 
 
 - In the “Data Management” dashboard, the admin is able to view all the wallet addresses that own the DAO membership SBT and initiate decryption of the data tied to one or multiple SBTs.
 
