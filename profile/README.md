@@ -1,5 +1,5 @@
 
-## # Welcome to SPN DAO
+## Welcome to SPN DAO
 
 ### Problem Statement
 
@@ -95,6 +95,6 @@ For the core development, we used:
 
 * Brian Grosso: Developer
 * Jonathan Conn: Developer
-* Tobias Leinss: Developer
 * Karen Sheng: Product Lead
 * Yifeng Wang: UX & UI Designer
+* Tobias Leinss: Developer
