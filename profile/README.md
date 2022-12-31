@@ -53,8 +53,8 @@ Whenever a decryption is initiated, a payment will be triggered to send rewards 
 
 - Smart Contracts - Solidity
 - Backend - TypeScript
-- Testnet - Polygon Mumbai/ FEVM
-- Tools - Hardhat, Remix, Metamask
+- Testnet - Polygon Mumbai
+- Tools - Hardhat, Remix, Metamask, RainbowKit, Pinata, IPFS
 - UX & UI Design - Figma
 
 ## Related source code repo
