@@ -31,7 +31,7 @@ We have built a decentralization application (dApp) that facilitates the creatio
 
 - Only a wallet containing the “admin NFT” can decrypt the CID and the data. Any existing DAO members have the option to burn their SBTs if they wish to exit the DAO and stop sharing their data.
 
-- In the end-user dashboard, DAO members have access to a discussion forum as well as view and cast votes on any proposals. 
+- In the end-user dashboard, DAO members have access to a discussion forum. DAO members could also view and cast votes on any proposals that are active. 
 
 **For the admin of the DAO:**
 
