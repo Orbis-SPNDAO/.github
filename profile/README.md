@@ -7,7 +7,7 @@ Web 3.0 technologies have enabled a paradigm shift in how we perceive and enforc
 
 After lots of debates and iterations, our team decided to build a data DAO that incentivizes members to contribute their credit card transaction data and govern how their data is used.
 
-Why credit card transaction data? Platforms such as Instagram heavily influence the formation of consumers’ tastes, preferences, and what we purchase. In return, our credit card transactions reveal a lot about our behaviors. Aggregated together, the data tell even more insightful stories about the economy. For instance, is there a spike in Netflix subscriptions? Or is there a dip in spending at hardware stores?
+Why credit card transaction data? Platforms such as Facebook and Instagram heavily influence the formation of consumers’ tastes, preferences, and what we purchase. In return, our credit card transactions reveal a lot about our behaviors. Aggregated together, the data tell even more insightful stories about the economy. For instance, is there a spike in Netflix subscriptions? Or is there a dip in spending at hardware stores?
 
 Credit card transaction data is the highest-grossing data source in the “alternative data” market. The global alternative data market is anticipated to reach 143.31 billion USD by 2030 and is expected to grow at a 54.4% CAGR. North America alone accounted for a revenue share of more than 67.0% in 2021.
 
