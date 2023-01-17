@@ -71,11 +71,9 @@ The tech stack that we’ve used for building the dApp consists of
 
 - NextJS
 - Tailwinds
-- Vocdoni
-- Orbis
 - RainbowKit
 - Wagmi 
-- Lit 
+- Lit protocol
 - Figma for design
 
 For the core development, we used:
