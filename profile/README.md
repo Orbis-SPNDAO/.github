@@ -31,7 +31,6 @@ We have built a decentralization application (dApp) that facilitates the creatio
 
 - Only a wallet containing the “admin NFT” can decrypt the CID and the data. Any existing DAO members have the option to burn their SBTs if they wish to exit the DAO and stop sharing their data.
 
-- In the end-user dashboard, DAO members have access to a discussion forum. DAO members could also view and cast votes on any proposals that are active. 
 
 **For the admin of the DAO:**
 
@@ -43,7 +42,6 @@ We have built a decentralization application (dApp) that facilitates the creatio
 
 - Whenever a decryption is completed, payment will be sent over to the holder of a given SBT as a reward. The payment transactions can be easily verified on PolygonScan. For example [here](https://mumbai.polygonscan.com/tx/0xe143aa8788051b58e1bc7325c27623adb190b168e138bbf9c21060a3c9391ab3 "here").
 
-- In the “Proposal Management” dashboard, the admin is able to create proposals and set up elections for the proposal. 
 
 **For Subscribers (third-party clients):**
 
@@ -56,11 +54,9 @@ We have built a decentralization application (dApp) that facilitates the creatio
 
 ## Challenges & Future Iterations:
 
-- In general, as we tried to build use cases for multiple bounties, we experienced some difficulties working with tools still in development without a lot of documentation and informal documentation of StackOverflow threads and the like.
-
 - One of the biggest challenges is the reliability of data encryption. We had to deal with the conundrum of the transparency of blockchain and being an open-source project. We realized that there were risks in embedding the decryption key in the membership SBT smart contract. The solution we came up with was to map the key in the admin NFT smart contract.
 
-- Future iterations to enhance the solution include storing the decryption key (“admin NFT”) in a Gnosis multi-sig and enforcing collecting a certain number of approval signatures for decryption; exploring and incorporating a privacy layer such as Aztec.
+- Future iterations to enhance the solution include storing the decryption key (“admin NFT”) in a Gnosis multi-sig and enforcing collecting a certain number of approval signatures for decryption. 
 
 - Another challenge is to maintain secure storage and retrieval of data while storing the data in a trustless decentralized manner. For the MVP, the CSV file that a DAO member contributes is automatically downloaded to the admin’s local machine once a member’s SBT is decrypted. This is clearly not appropriate for real-world practice. Future iterations include routing the individual datasets to secure cloud storage; setting up infrastructure for confidential computing; exploring possibilities for compute-over-data.
 
@@ -97,12 +93,12 @@ For the core development, we used:
 
 ## Demo URL
 
-* https://spn-dao.vercel.app/
+* https://spn-dao-new.vercel.app/
 
 ## Team
 
-* Brian Grosso: Developer
-* Jonathan Conn: Developer
 * Karen Sheng: Product Lead
+* Jonathan Conn: Back-end Developer
 * Yifeng Wang: UX & UI Designer
-* Tobias Leinss: Developer
+* Anthony Liang: Full-stack Developer 
+
