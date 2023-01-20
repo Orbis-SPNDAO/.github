@@ -98,5 +98,6 @@ For the core development, we used:
 * Karen Sheng: Product Lead
 * Jonathan Conn: Back-end Developer
 * Yifeng Wang: UX & UI Designer
-* Anthony Liang: Full-stack Developer 
+* Brian Grosso: Full-stack Developer
+* Tobias Leinss: Front-end Developer
 
